@@ -1,4 +1,4 @@
-package pruebas.Otros;
+package pruebas.otros;
 
 public class Main {
     
