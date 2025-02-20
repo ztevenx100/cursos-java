@@ -1,18 +1,20 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /*
  * 2215. Find the Difference of Two Arrays
  * Given two 0-indexed integer arrays nums1 and nums2, return a list answer of size 2 where:
  * answer[0] is a list of all distinct integers in nums1 which are not present in nums2.
  * answer[1] is a list of all distinct integers in nums2 which are not present in nums1.
  * Note that the integers in the lists may be returned in any order.
+ * 
+ * - Complejidad:
+ *     - 
 */
-
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-class Solution {
-    public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
+class FindDifference {
+    public List<List<Integer>> solution(int[] nums1, int[] nums2) {
         // Convertimos los arreglos en conjuntos para eliminar duplicados
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();

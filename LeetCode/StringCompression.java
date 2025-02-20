@@ -7,10 +7,14 @@
  * The compressed string s should not be returned separately, but instead, be stored in the input character array chars. Note that group lengths that are 10 or longer will be split into multiple characters in chars.
  * After you are done modifying the input array, return the new length of the array.
  * You must write an algorithm that uses only constant extra space.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
 
-class Solution {
-    public int compress(char[] chars) {
+class StringCompression {
+    public int solution(char[] chars) {
         
         int n = chars.length;
         int write = 0; // Índice para escribir en el arreglo comprimido

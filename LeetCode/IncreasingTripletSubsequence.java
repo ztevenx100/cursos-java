@@ -1,10 +1,14 @@
 /*
  * 334. Increasing Triplet Subsequence
  * Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
 
-class Solution {
-    public boolean increasingTriplet(int[] nums) {
+class IncreasingTripletSubsequence {
+    public boolean solution(int[] nums) {
         // Inicializamos first y second con el valor máximo posible
         int first = Integer.MAX_VALUE;
         int second = Integer.MAX_VALUE;

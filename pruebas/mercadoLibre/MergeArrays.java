@@ -9,7 +9,7 @@ import static java.util.stream.Collectors.toList;
 
 
 
-class Result {
+class ToMergeArrays {
 
     /*
      * Complete the 'mergeArrays' function below.
@@ -20,7 +20,7 @@ class Result {
      *  2. INTEGER_ARRAY b
      */
 
-    public static List<Integer> mergeArrays(List<Integer> a, List<Integer> b) {
+    public static List<Integer> result(List<Integer> a, List<Integer> b) {
         //List<Integer> vectorMasGrande = (a.size() >= b.size())? a: b;
         List<Integer> listaFuncionada = new ArrayList<>();
         int posicionA = 0, posicionB = 0;
@@ -81,7 +81,7 @@ public class MergeArrays {
             .map(Integer::parseInt)
             .collect(toList());
 
-        List<Integer> result = Result.mergeArrays(a, b);
+        List<Integer> result = ToMergeArrays.result(a, b);
 
         bufferedWriter.write(
             result.stream()

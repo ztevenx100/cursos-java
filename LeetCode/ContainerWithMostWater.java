@@ -4,10 +4,14 @@
  * Find two lines that together with the x-axis form a container, such that the container contains the most water.
  * Return the maximum amount of water a container can store.
  * Notice that you may not slant the container.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez con los dos punteros.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
 
-class Solution {
-    public int maxArea(int[] height) {
+class ContainerWithMostWater {
+    public int solution(int[] height) {
         int left = 0; // Puntero izquierdo
         int right = height.length - 1; // Puntero derecho
         int maxArea = 0; // Variable para almacenar el área máxima
