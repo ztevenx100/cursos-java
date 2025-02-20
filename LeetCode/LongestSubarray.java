@@ -2,10 +2,13 @@
  * 1493. Longest Subarray of 1's After Deleting One Element
  * Given a binary array nums, you should delete one element from it.
  * Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez con los dos punteros.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
-
-class Solution {
-    public int longestSubarray(int[] nums) {
+class LongestSubarray {
+    public int solution(int[] nums) {
         int left = 0; // Puntero izquierdo de la ventana
         int maxLength = 0; // Longitud máxima de la ventana
         int zeroCount = 0; // Contador de ceros en la ventana

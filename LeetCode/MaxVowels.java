@@ -2,10 +2,13 @@
  * 1456. Maximum Number of Vowels in a Substring of Given Length
  * Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
  * Vowel letters in English are 'a', 'e', 'i', 'o', and 'u'.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
-
-class Solution {
-    public int maxVowels(String s, int k) {
+class MaxVowels {
+    public int solution(String s, int k) {
         // Definir un conjunto de vocales para facilitar la verificación
         String vowels = "aeiouAEIOU";
         

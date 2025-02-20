@@ -2,10 +2,14 @@
  * 283. Move Zeroes
  * Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
  * Note that you must do this in-place without making a copy of the array.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
 
-class Solution {
-    public void moveZeroes(int[] nums) {
+class MoveZeroes {
+    public void solution(int[] nums) {
         int write = 0; // Puntero para escribir elementos no nulos
 
         // Paso 1: Mover todos los elementos no nulos al principio

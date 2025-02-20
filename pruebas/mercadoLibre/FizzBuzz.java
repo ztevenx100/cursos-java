@@ -1,12 +1,12 @@
 package pruebas.mercadoLibre;
 import java.io.*;
 
-class Result {
+class ToFizzBuzz {
     /*
      * Complete the 'fizzBuzz' function below.
      * The function accepts INTEGER n as parameter.
      */
-    public static void fizzBuzz(int n) {
+    public static void result(int n) {
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
@@ -27,7 +27,7 @@ public class FizzBuzz {
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        Result.fizzBuzz(n);
+        ToFizzBuzz.result(n);
 
         bufferedReader.close();
     }

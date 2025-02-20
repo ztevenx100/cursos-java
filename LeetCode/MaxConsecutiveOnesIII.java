@@ -1,10 +1,13 @@
 /*
  * 1004. Max Consecutive Ones III
  * Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+ * 
+ * - Complejidad:
+ *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez con los dos punteros.
+ *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */
-
-class Solution {
-    public int longestOnes(int[] nums, int k) {
+class LongestOnes {
+    public int solution(int[] nums, int k) {
         int left = 0; // Puntero izquierdo de la ventana
         int maxLength = 0; // Longitud máxima de la ventana
         int zeroCount = 0; // Contador de ceros en la ventana

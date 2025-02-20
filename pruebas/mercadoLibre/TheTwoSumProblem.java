@@ -2,7 +2,7 @@ package pruebas.mercadoLibre;
 
 import java.util.*;
 
-class Result {
+class TwoSums {
 
     /*
      * Complete the 'twoSums' function below.
@@ -12,7 +12,7 @@ class Result {
      *  1. List<Integer> A
      *  2. INTEGER K
      */
-    public static String twoSums(List<Integer> A, int K) {
+    public static String result(List<Integer> A, int K) {
         // Crear un HashSet para almacenar los números vistos
         Set<Integer> seenNumbers = new HashSet<>();
         
@@ -41,7 +41,7 @@ public class TheTwoSumProblem {
         List<Integer> A = Arrays.asList(1, 3, 7);
         int K = 8;
 
-        String result = Result.twoSums(A, K);
+        String result = TwoSums.result(A, K);
         System.out.println(result); // Debe imprimir "yes"
     }
 }
