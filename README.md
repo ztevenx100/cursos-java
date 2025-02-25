@@ -17,5 +17,6 @@ Repositorio dedicado a cursos, ejercicios y códigos de práctica en Java. Aquí
 - **HackerRank**: Otra plataforma para practicar problemas de programación y mejorar tus habilidades en Java.
 - **Cracking the Coding Interview**: Libro y ejercicios recomendados para prepararse para entrevistas técnicas.
 - **Spring Framework**: Introducción al framework más popular para el desarrollo de aplicaciones empresariales en Java.
+- **Otros**
 
 ---
