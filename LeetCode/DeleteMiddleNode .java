@@ -5,7 +5,7 @@
  * - For n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
  * 
  * - Complejidad:
- *     - Tiempo: O(n),  donde n es el número de nodos en la lista. Recorremos la lista una vez.
+ *     - Tiempo: O(n), donde n es el número de nodos en la lista. Recorremos la lista una vez.
  *     - Espacio: O(1), ya que solo usamos punteros adicionales constantes.
 */
 
