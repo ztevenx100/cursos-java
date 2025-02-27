@@ -10,13 +10,13 @@
  *     - Espacio: O(1), ya que solo usamos punteros adicionales constantes.
 */
 
-class ListNode {
+/*class ListNode {
     int val;
     ListNode next;
     ListNode() {}
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
+}*/
 
 class OddEvenList {
     public ListNode solution(ListNode head) {
