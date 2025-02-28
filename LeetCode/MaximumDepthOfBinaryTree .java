@@ -1,11 +1,11 @@
 /*
- * 283. Move Zeroes
- * Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
- * Note that you must do this in-place without making a copy of the array.
+ * 104. Maximum Depth of Binary Tree
+ * Given the root of a binary tree, return its maximum depth.
+ * A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
  * 
  * - Complejidad:
- *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
- *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
+ *     - Tiempo: O(n), donde n es el número de nodos en el árbol. Visitamos cada nodo una vez.
+ *     - Espacio: O(1),  donde h es la altura del árbol. En el peor caso (árbol completamente desbalanceado), h=n. En el mejor caso (árbol balanceado), h=logn.
 */
 
 class TreeNode {
