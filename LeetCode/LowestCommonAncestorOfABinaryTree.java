@@ -8,6 +8,19 @@
  *     - Espacio: O(h), dondehh es la altura del árbol. En el peor caso (árbol completamente desbalanceado), h=n. En el mejor caso (árbol balanceado), h=logn.
 */
 
+/*class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}*/
+
 class LowestCommonAncestorOfABinaryTree {
     public TreeNode solution(TreeNode root, TreeNode p, TreeNode q) {
         // Caso base: si el nodo es null, devolvemos null
