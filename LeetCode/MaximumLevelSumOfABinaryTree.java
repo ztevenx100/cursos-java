@@ -11,7 +11,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TreeNode {
+/*class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -22,7 +22,7 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
-}
+}*/
 
 class MaximumLevelSumOfABinaryTree {
     public int solution(TreeNode root) {
