@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
  * A subsequence of indices of an array is a set that can be derived from the set {0, 1, ..., n-1} by deleting some or no elements.
  * 
  * - Complejidad:
- *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
+ *     - Tiempo: O(n), donde n es el número de elementos en nums1 y nums2.
  *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
 */ 
 
