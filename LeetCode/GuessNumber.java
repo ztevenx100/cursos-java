@@ -10,8 +10,8 @@
  * Return the number that I picked.
  * 
  * - Complejidad:
- *     - Tiempo: O(n), ya que recorremos el arreglo una sola vez.
- *     - Espacio: O(1), ya que solo usamos variables adicionales constantes.
+ *     - Tiempo: O(log n), La búsqueda binaria tiene una complejidad de O(log n).
+ *     - Espacio: O(1), Usamos espacio constante O(1).
 */
 class GuessGame {
     int guess(int num) {
