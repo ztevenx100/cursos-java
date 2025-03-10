@@ -14,7 +14,7 @@
  *     - Espacio: O(h), donde h es la altura del árbol. En el peor caso (árbol completamente desbalanceado), h=n. En el mejor caso (árbol balanceado), h=log⁡n.
 */
 
-class TreeNode {
+/*class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -25,7 +25,7 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
-}
+}*/
 
 class LongestZigZagPathInABinaryTree {
     private static int maxLength = 0; // Variable para almacenar la longitud máxima del camino ZigZag
