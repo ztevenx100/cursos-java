@@ -8,7 +8,7 @@
  *     - Espacio: O(h), debido a la recursión. En el peor caso, la pila de llamadas recursivas puede tener una profundidad de h.
 */
 
-class TreeNode {
+/*class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -19,7 +19,7 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
-}
+}*/
 
 class SearchInABinarySearchTree {
     public TreeNode solution(TreeNode root, int val) {
