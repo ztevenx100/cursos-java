@@ -3,13 +3,12 @@ package HackerRank;
 import java.util.Scanner;
 
 /*
- * Nearly Similar Rectangles
- * Given a list of rectangles where each rectangle is represented by a pair of its sides' lengths, return the number of pairs of rectangles that are nearly similar.
- * Two rectangles are nearly similar if their sides have the same ratio. More formally, two rectangles are nearly similar if the absolute difference between their ratios is less than or equal to 10^-5.
+ * Java Stdin and Stdout II
+ * In this challenge, you must read an integer, a double, and a String from stdin, then print the values according to the instructions provided.
  *
  * - Complejidad:
- *     - Tiempo: O(n), donde n es el número de rectángulos en la lista.
- *     - Espacio: O(n), donde n es el número de rectángulos en la lista.
+ *     - Tiempo: O(1), ya que no se utiliza memoria adicional.
+ *     - Espacio: O(1), ya que no se utiliza memoria adicional.
 */ 
 public class StdinStdoutII {
 
