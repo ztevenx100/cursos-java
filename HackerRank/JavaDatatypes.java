@@ -21,10 +21,10 @@ public class JavaDatatypes {
 
         // Procesar cada caso de prueba
         for (int i = 0; i < t; i++) {
-            try {
-                // Leer el número como una cadena para manejar números arbitrariamente grandes
-                String input = scanner.next();
+            // Leer el número como una cadena para manejar números arbitrariamente grandes
+            String input = scanner.next();
 
+            try {
                 // Convertir la cadena a un número largo
                 long n = Long.parseLong(input);
 
@@ -45,7 +45,7 @@ public class JavaDatatypes {
                 }
             } catch (NumberFormatException e) {
                 // Si el número no puede ser convertido a long, no cabe en ningún tipo primitivo
-                System.out.println(scanner.next() + " can't be fitted anywhere.");
+                System.out.println(input + " can't be fitted anywhere.");
             }
         }
 
