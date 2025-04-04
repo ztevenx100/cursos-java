@@ -9,6 +9,7 @@ Repositorio dedicado a cursos, ejercicios y códigos de práctica en Java. Aquí
 
 ### Plataformas de Aprendizaje
 - **[LeetCode](https://leetcode.com/)** : Plataforma para practicar problemas de algoritmos y estructuras de datos. Ideal para prepararse para entrevistas técnicas.
+- **[HackerRank]()**
 
 ---
 
