@@ -9,14 +9,13 @@ Repositorio dedicado a cursos, ejercicios y códigos de práctica en Java. Aquí
 
 ### Plataformas de Aprendizaje
 - **[LeetCode](https://leetcode.com/)** : Plataforma para practicar problemas de algoritmos y estructuras de datos. Ideal para prepararse para entrevistas técnicas.
-- **[HackerRank]()**
+- **[HackerRank]()** : Plataforma para practicar problemas de programación y mejorar tus habilidades en Java.
 
 ---
 
 ## 🛠️ Próximos Cursos o Recursos
 
 - **Curso de Java Avanzado**: Profundiza en temas como concurrencia, streams y programación funcional.
-- **HackerRank**: Otra plataforma para practicar problemas de programación y mejorar tus habilidades en Java.
 - **Cracking the Coding Interview**: Libro y ejercicios recomendados para prepararse para entrevistas técnicas.
 - **Spring Framework**: Introducción al framework más popular para el desarrollo de aplicaciones empresariales en Java.
 - **Otros**
